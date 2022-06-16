@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%; /* 1 rem = 10 px */
+}
+
+body {
+    height: 100vh;
+}
+
+
+/* Header */
+.descuento{
+    background-color: #1cd1b0;
+    height: 3.8rem;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.title{
+    width: 100%;
+    height: 10rem;
+    background-color: #00669F;
+    padding: 3rem;
+    box-shadow: 0.2rem 1rem 3.9rem -0.8rem rgba(0,0,0,0.75);
+    font-size: 3rem;
+}
+
+.title h1{
+    margin-left: 2rem;
+}
+
+.tarjetas{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.tarjeta{
+    height: auto;
+    min-height: 50rem;
+    max-width: 30rem;
+    width: 100%;
+    background-color: #F3F3F3;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 3.9rem -0.8rem rgba(0,0,0,0.75);
+    font-size: 3.8rem;
+}
+
+.imagen-fondo{
+    width: 100%;
+}
+
+.perfil{
+    position: relative;
+}
+
+.perfil img{
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 6rem);
+    top: -6rem;
+}
+
+.body{
+    text-align: center;
+    margin-top: 8rem;
+    padding: 1.5rem 1.5rem 3.5rem 1.5rem;
+}
+
+.boton{
+    text-align: center;
+}
+
+.boton a{
+    width: 12.8rem;
+    height: 4.8rem;
+    color: white;
+    background-color: #00669F;
+    padding: 2.0rem;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    background-color: #00669F;
+    color: aliceblue;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 20rem;
+    font-size: 3rem;
+}
+
+@media(max-width:60rem){
+    .tarjetas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:88rem){
+    .tarjetas{
+      flex-wrap: wrap;
+    }
+}
