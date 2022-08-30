@@ -1,20 +1,31 @@
+# Responsive Design Hero
+
 <a name="top"></a>
-# Título de nuestro documento
- 
-## Índice de contenidos
-* [Contenido 1](#item1)
-* [Contenido 2](#item2)
-* [Contenido 3](#item3)
-* [Contenido 4](#item4)
- 
-Lorem ipsum dolor
+
+## [English](#item1)
+## [Spanish](#item2)
+
  
 <a name="item1"></a>
-### Contenido 1
+
+### English
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#### Used technology: HTML, CSS
  
-[Subir](#top)
- 
+This is an example of a website with responsive design.
+I use display flex, along with relative and absolute positions.
+For the modification of the view according to the type of device (mobile and desktop) I use media queries.
+
+[Go up](#top)
 <a name="item2"></a>
-### Contenido 2
+
+### Spanish
+
+#### Tecnologías utlizadas: HTML, CSS
+
+Este es un ejemplo de pagina web con diseno responsivo. 
+Utilice display flex, junto con posiciones relativas y absolutas.
+Para la modificacion de la vista segun el tipo de dispositivo (mobile y desktop) utlice media queries. 
+
+
+[Subir](#top)
